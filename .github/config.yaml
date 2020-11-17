@@ -1,0 +1,6 @@
+PR_TITLE_REGEX: /(feat|fix|chore|docs|style|test|improv|BCHG|Scope)((\()(FA)(-)([0-9]+)(\))(:))([\W\w\d]{0,40})/i
+COMMIT_MESSAGE_REGEX: /([\W\w\d]{5,40})/i
+VALID_COMMIT_MESSAGE: Valid commit message, Thank you so much
+INVALID_COMMIT_MESSAGE: Please add atleast a word(>=5 letters) for us to understand better.
+VALID_PULL_REQUEST_MESSAGE: It's a valid PR message, Thank you so much. 
+INVALID_PULL_REQUEST_MESSAGE: Please let Jira and stackholders know your PR by following the proper PR message format.
